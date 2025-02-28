@@ -28,7 +28,7 @@ class ChatHandler {
       credentials: {
         clientEmail: jsonData.client_email,
         privateKey: jsonData.private_key,
-        calendarId: process.env.GOOGLE_CALENDAR_ID,
+        calendarId: process.env.GOOGLE_CALENDER_ID,
       },
       scopes: [
         "https://www.googleapis.com/auth/calendar",
